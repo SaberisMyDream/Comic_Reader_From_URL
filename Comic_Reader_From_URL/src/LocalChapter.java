@@ -46,6 +46,14 @@ public class LocalChapter implements Comparable<LocalChapter>
 	{
 		this.chapterNumber = chapterNumber;
 	}
+	
+	
+	public ArrayList<String> getAllPageAddress() {
+		return allPageAddress;
+	}
+	public void setAllPageAddress(ArrayList<String> allPageAddress) {
+		this.allPageAddress = allPageAddress;
+	}
 	//contructor
 	public LocalChapter(LocalManga localManga, String mangaDirectory, String chapterNumber, boolean isDownload) 
 	{
